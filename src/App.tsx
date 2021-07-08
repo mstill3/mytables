@@ -1,26 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
+import MyMaterialTable from './MyMaterialTable';
+import MyDataGrid from './MyDataGrid';
+import MyOtherMaterialTable from './MyOtherMaterialTable';
+import MyXGrid from './MyXGrid';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// const App = () => <MyMaterialTable />
+// const App = () => <MyDataGrid />
+const App = () => <MyOtherMaterialTable />
+// const App = () => <MyXGrid />
 
 export default App;
